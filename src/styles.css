@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #4caf50;
+  margin: 0;
+  padding: 20px;
+}
+
+.board {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #4caf50;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.list-container {
+  display: flex;
+  gap: 20px;
+}
+
+.list {
+  background-color: #e2e2e2;
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-icon {
+  cursor: pointer;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-bottom: 60px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="text"]:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.new-list input[type="text"] {
+  margin-top: 10px;
+  width: calc(100% - 20px);
+}
+
+button.save {
+  background-color: green;
+}
+
+button.delete {
+  background-color: red;
+}
